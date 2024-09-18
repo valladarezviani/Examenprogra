@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen ejercicios de Programación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios de Programación</h1>
+    </header>
+    <div class="intro">
+        <h2>Introduccion</h2>
+        <p>Este es un sitio web diseñado para mostrar los programas que se han realizado durante los periodos de clase. Bajando nos encontraremos 15 ejercicios que han sido realizados durante este tiempo, gracias a estos ejercicios muchos de nuestros compañeros lograron entender cada vez mas lo que es el mundo de la programacion. Quiero agradecer a mi Maestro Jeovanny Barrera por su trabajo durante este largo periodo de clases ya que gracias a el nuestros conocimientos han ido creciendo, no a sido facil pero se a logrado. Esta es la ultima tarea que realizamos con el, estoy feliz y al mismo tiempo triste de saber que este ya casi es el final. Gracias querido prof Geo por sus consejos, su paciencia y sobre todo por su tiempo.</p>
+    </div>
+    <main>
+        <section id="exercise1" class="exercise">
+            <h2>Ejercicio 1: Uso de for</h2>
+           <li><a href="ejercicio1/index.html">Ejercicio 1</a> <- Puedes hacer clic aqui para verlo</li>
+           <p>Este ejercicio Imprime los numeros del 1 al 100</p>
+            <pre><code>//Declarar variable
+                //let suma = 0;
+                
+                for(let i = 1; i <= 100; i++){
+                    document.write(i + "<br>");
+                } </code></pre>
+            
+        </section>
+        
+        <section id="exercise2" class="exercise">
+            <h2>Ejercicio 2: Uso de While</h2>
+            <li><a href="ejercicio2/index.html">Ejercicio 2</a> <- Para ver</li>
+            <p>Este ejercicio muestra los numeros menores que cinco</p>
+            <pre><code>//Declarar Variables
+                let i = 0;
+                while (i < 5){
+                    document.write(i);
+                    i++;
+                } </code></pre>
+            
+        </section>
+
+        <section id="exercise3" class="exercise">
+            <h2>Ejercicio 3: While </h2>
+            <li><a href="ejercicio3/index.html">Ejercicio 3</a> <- Clic para ver</li>
+           <p>Este ejercicio muestra el numero mayor a 100 que has ingresado</p>
+            <pre><code>//Declarar Variable
+                let num = 0;
+                while (num <= 100){
+                    num = parseInt(prompt("Ingrese un numero mayor que 100: "));
+                }
+                document.write("Numero ingresado mayor que 100: ", num); </code></pre>
+            
+        </section>
+        
+        <section id="exercise4" class="exercise">
+            <h2>Ejercicio 4: Uso de While</h2>
+            <li><a href="ejercicio4/index.html">Ejercicio 4</a> <- Para ver</li>
+            <p>Este ejercicio muestra el resultado de la suma de los numeros del 1 al 100</p>
+            <pre><code>//Declarar Variables
+                let suma = 0;
+                let i = 1;
+                while (i <= 100){
+                    suma = suma + i;
+                    i++;
+                }
+                document.write("El resultado de la suma de los numero del 1 al 100 es: " + suma); </code></pre>
+        </section>
+
+        <section id="exercise5" class="exercise"></section>
+            <h2>Ejercicio 5: Uso de dowhile</h2>
+            <li><a href="ejercicio5/index.html">Ejercicio 5</a> <- Para ver</li>
+            <p>Este ejercicio muestra los numeros del 1 al 10</p>
+            <pre><code>//Declarar Variable
+                suma = 0;
+                let i = 1;
+                //Inicio del ciclo repetitivo
+                do{
+                    document.write(i);
+                    i++;
+                }while( i <= 10); </code></pre>
+        </section>
+
+        <section id="exercise6" class="exercise"></section>
+            <h2>Ejercicio 6: dowhile </h2>
+            <li><a href="ejercicio6/index.html">Ejercicio 6</a> <- Clic para ver</li>
+           <p>Este ejercicio muestra suma del 1 al 100</p>
+            <pre><code>//Declarar Variable
+                suma = 0;
+                let i = 1;
+                //Inicio del ciclo repetitivo
+                do{
+                    suma = suma + i;
+                    i++;
+                }while( i <= 100);
+                document.write("El resultado de la suma del 1 al 100 es: " + suma);</code></pre>
+        </section>
+        
+        <section id="exercise7" class="exercise">
+            <h2>Ejercicio 7: Licencia</h2>
+            <li><a href="licencia/index.html">Ejercicio 7</a> <- Para ver</li>
+            <p>Este es un programa que pide tu edad para saber si estas en la edad para tener una licencia y conducir</p>
+            <pre><code>let edad = parseFloat(prompt("Ingrese su Edad"));
+                if(edad >= 18){
+                    let sn = prompt("Usted Tiene Licencia?");
+                    if( sn === "si"){
+                        document.write("Ya que usted tiene la edad adecuada y tiene licencia usted esta autorizado para conducir");
+                    }
+                    else{
+                        document.write("Ya que usted tiene la edad adecuada pero no licencia usted no esta autorizado para conducir ");
+                    }
+                }
+                else if(edad <= 17){
+                    document.write("Disculpe pero usted no tiene la edad suficiente para tener licencia y peor para estar autorizado aconducir")
+                }
+                else{
+                    document.write("Ingrese un valor adecuado");
+                } </code></pre>
+            
+        </section>
+
+        <section id="exercise8" class="exercise"></section>
+            <h2>Ejercicio 8: Mayor o menor de edad</h2>
+            <li><a href="mayormenor/index.html">Ejercicio 8</a> <- Para ver</li>
+            <p>Este ejercicio te muestra si eres mayor o menor segun tu edad</p>
+            <pre><code>let edad = parseFloat(prompt("Ingrese su edad "));
+                if (edad >= "18"){
+                    document.write(" Usted es mayor de edad ");
+                }
+                else if (edad <= "17"){
+                    document.write(" Usted es menor de edad ");
+                }
+                else {
+                    document.write("Ingrese un valor");
+                }</code></pre>
+        </section>
+
+        <section id="exercise9" class="exercise"></section>
+            <h2>Ejercicio 9: Notas </h2>
+            <li><a href="notas/index.html">Ejercicio 9</a> <- Clic para ver</li>
+           <p>Este ejercicio te pide ingresar tu nota para saber que tan avanzado estas</p>
+            <pre><code>let nota = parseFloat(prompt("Ingrese su nota "));
+                //Realizar procedimiento
+                if (nota < "75"){
+                    document.write(" Usted Necesita Mejorar ");
+                }
+                else if (nota < "80"){
+                    document.write("Bueno ");
+                }
+                else if (nota < "91"){
+                    document.write("Muy Bueno ");
+                }
+                else if (nota <= "100"){
+                    document.write("Usted esta en Excelencia Academica ");
+                }
+                else {
+                    document.write("Ingrese un valor");
+                }</code></pre>
+            
+        </section>
+        
+        <section id="exercise10" class="exercise">
+            <h2>Ejercicio 10: Juego Adivinanzas</h2>
+            <li><a href="practica1/index.html">Ejercicio 10</a> <- Para ver</li>
+            <p>Este ejercicio es un ejemplo muy claro de que la Programación puede ser muy divertida. Es un juego que te pide ingresar un numero para poder adivinar el numero secreto</p>
+            <pre><code>let numeroSecreto = Math.floor(Math.random()*100)+1;
+                let intentos = 0;
+                function adivinaNumero(){
+                    const intento = parseInt(document.getElementById('intento').value);
+                    intentos++;
+                    const pista = document.getElementById('pista');
+                    if (intento < numeroSecreto){
+                        pista.textContent = "Mas Alto";
+                    }
+                    else if (intento > numeroSecreto){
+                        pista.textContent = "Mas Bajo";
+                    }
+                    else{
+                        pista.textContent = `Felicidades, Adivinaste el numro en ${intentos} intentos.`;
+                    }
+                } </code></pre>
+            
+        </section>
+
+        <section id="exercise11" class="exercise">
+            <h2>Ejercicio 11: Calcular Factoriales</h2>
+            <li><a href="practica2/index.html">Ejercicio 11</a> <- Para ver</li>
+            <p>Este ejercicio sirve para calcular factoriales</p>
+            <pre><code>function calcularFactorial(n){
+                if (n === 0 || n === 1){
+                    return 1;
+                }
+                let resultado = 1;
+                for (let i = n; i > 1; i--){
+                    resultado *= i;
+                }
+                return resultado;
+            }
+            function mostrarFactoriales(){
+                const numero = parseFloat(document.getElementById('numero').value);
+                const resultado = calcularFactorial(numero);
+                document.getElementById('resultado').textContent = `El Factorial de ${numero} es ${resultado}`;
+            }code></pre>
+        </section>
+
+        <section id="exercise12" class="exercise">
+            <h2>Ejercicio 12: Suma resta multiplicacion y division</h2>
+            <li><a href="proyecto1/index.html">Ejercicio 12</a> <- Para ver</li>
+            <p>Este ejercicio hace las cuatro operaciones basicas matematicas</p>
+            <pre><code>function suma(){
+                var numero1 = parseFloat(document.getElementById('numero1').value);
+                var numero2 = parseFloat(document.getElementById('numero2').value);
+                var resultado = numero1 + numero2;
+            
+                document.getElementById('resultado').value = resultado;
+            }
+            function resta(){
+                var numero1 = parseFloat(document.getElementById('numero1').value);
+                var numero2 = parseFloat(document.getElementById('numero2').value);
+                var resultado = numero1 - numero2;
+            
+                document.getElementById('resultado').value = resultado;
+            }
+            function multiplicacion(){
+                var numero1 = parseFloat(document.getElementById('numero1').value);
+                var numero2 = parseFloat(document.getElementById('numero2').value);
+                var resultado = numero1 * numero2;
+            
+                document.getElementById('resultado').value = resultado;
+            }
+            function division(){
+                var numero1 = parseFloat(document.getElementById('numero1').value);
+                var numero2 = parseFloat(document.getElementById('numero2').value);
+                var resultado = numero1 / numero2;
+            
+                document.getElementById('resultado').value = resultado;
+            }
+            function residuo(){
+                var numero1 = parseFloat(document.getElementById('numero1').value);
+                var numero2 = parseFloat(document.getElementById('numero2').value);
+                var resultado = numero1 % numero2;
+            
+                document.getElementById('resultado').value = resultado;
+            } </code></pre>
+        </section>
+
+        <section id="exercise13" class="exercise">
+            <h2>Ejercicio 13: Ticket descuento</h2>
+            <li><a href="ticket/index.html">Ejercicio 13</a> <- Clic para ver</li>
+           <p>Este ejercicio te pide ingresar tu edad para confirmar si tienes descuento o no.</p>
+            <pre><code>let precio = parseFloat(prompt("Ingrese el precio del ticket"));
+                let edad = prompt("Igrese su edad para saber si tiene descuento");
+                
+                //Realizar procedimiento
+                if (edad <= 12 ){
+                    let cantidad = precio *0.40;
+                    let descuento = precio - cantidad;
+                    document.write("Ya que usted tiene menos de 12 obtiene un descuento del 40% por lo tanto solo debe pagar ",descuento,"$");
+                }
+                else if (edad <= 21){
+                    let estudiante = prompt("Usted es un estudiante?")
+                    if (estudiante === "si") {
+                        let canti = precio *0.30;
+                        let des = precio - canti;
+                        document.write("Ya que usted tiene mas de 13 y menos de 21 y es estudiante obtiene un descuento del 30% por lo tanto solo debe pagar ",des,"$");
+                    }else {
+                        document.write("Lo siento pero usted no es estudiante por lo tanto no puede obtener este descuento por lo tanto tiene que pagar el precio normal que es de ",precio,"$");
+                    }
+                }
+                else if (edad >= 60){
+                    let cantid = precio *0.60;
+                    let descu = precio - cantid;
+                    document.write("Ya que usted tiene mas 60 obtiene un descuento del 60% por lo tanto solo debe pagar ",descu,"$");
+                }
+                else {
+                    document.write("Si usted no tiene menos de 21 o mas de 60 no obtiene ningun descuento por lo tanto tiene que pagar el ticket completo que serian ", precio,"$");
+                }</code></pre>
+        </section>
+        
+        <section id="exercise14" class="exercise">
+            <h2>Ejercicio 14: trapecio</h2>
+            <li><a href="area de un trapecio/index.html">Ejercicio 14</a> <- Para ver</li>
+            <p>Este programa da el resultado del area de un trapecio</p>
+            <pre><code>l//Declarar Variable
+                let basemayor = 2;
+                let basemenor = 4;
+                let altura = 4
+                
+                //Realizamos el proceso 
+                area = ((basemayor + basemenor)* altura)/2;
+                
+                //Para mostrar resultado
+                document.write("El resultado es: ",area);</code></pre>
+            
+        </section>
+
+        <section id="exercise15" class="exercise">
+            <h2>Ejercicio 15: Area de un triangulo</h2>
+            <li><a href="area triangulo/index.html">Ejercicio 15</a> <- Para ver</li>
+            <p>Este ejercicio te muestra el area de un triangulo</p>
+            <pre><code>//Declarar Variable
+                let base = 2;
+                let altura = 4;
+                //Operacion
+                area = (base * altura)/2;
+                //Mostrar el resultado
+                document.write("El resultadio es: ",area);</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Viani Valladarez</p>
+    </footer>
+</body>
+</html>

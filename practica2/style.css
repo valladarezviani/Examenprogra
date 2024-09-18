@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #7da598;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.contenedor{
+    text-align: center;
+    background: #cde8e0;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+h1{
+    color: #06251b;
+}
+input, button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+@media (max-width: 480px) {
+    .contenedor{
+        margin: 4%;
+        width: 90%;
+        text-align: center;
+        background: #cde8e0;
+        padding: 10px;
+        box-shadow: 0 0 10px #000;
+    }
+    
+    h1{
+        color: #06251b;
+        font-size: 20px;
+    }
+    input, button{
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #resultado{
+        font-size: 12px;
+    }
+}

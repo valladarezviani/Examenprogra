@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="">
+            <h2>Calculadora</h2>
+            <div class="parrafo">
+                <label for="n1">Numero 1:</label>
+                <input class="texto"type="text" id="numero1">
+            </div>
+            <p></p>
+            <div class="parrafo">
+                <label for="n2">Numero 2:</label>
+                <input class="texto"type="text" id="numero2">
+            </div>
+            <p></p>
+            <div class="parrafo">
+                <label for="esultado">Resultado</label>
+                <input type="text" id="resultado" readonly>
+            </div>
+            <input type="button" onclick="suma()" class="btn" value="+">
+            <input type="button" onclick="resta()" class="btn" value="-">
+            <input type="button" onclick="multiplicacion()" class="btn" value="*">
+            <input type="button" onclick="division()" class="btn" value="/">
+            <input type="button" onclick="residuo()" class="btn" value="%">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

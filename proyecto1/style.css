@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #21295c;
+    color: #cf5c36;
+}
+.contenedor{
+    width: 400px;
+    margin: 15px; 
+    background: #eee5e9;
+    padding: 15px;
+}
+form h2{
+
+    font-size: 30px;
+    padding: 5%;
+    margin-bottom: 5%;
+    color: #ab4523;
+    text-align: center;
+}
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+form .parrafo{
+    font-size: 20px;
+    align-items: none;
+    color:  #ab4523;
+    font-weight: bold;
+    
+}
+input[type="text"]{
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+form .btn{
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    width: 16%;
+    background: #cf5c36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px;
+    display: 20px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body{
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #21295c;
+        color: #cf5c36;
+    }
+    .contenedor{
+        width: 300px;
+        margin: 10px; 
+        background: #eee5e9;
+        padding: 10spx;
+    }
+    form h2{
+    
+        font-size: 20px;
+        padding: 2%;
+        margin-bottom: 2%;
+        color: #ab4523;
+        text-align: center;
+    }
+    form p{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    form .parrafo{
+        font-size: 15px;
+        align-items: none;
+        color:  #ab4523;
+        font-weight: bold;
+        
+    }
+    input[type="text"]{
+        width: 60%;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .form .btn{
+        border-radius: 50%;
+        width: 10px;
+
+    }
+}
